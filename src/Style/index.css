@@ -1,0 +1,52 @@
+*{
+    color: #DFDCDD;
+}
+body{
+    background-color: #222222;
+}
+
+
+/* Input Page */
+
+
+/* ----------------------------------------- */
+label{
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    color: black;
+    border-radius: 10px;
+}
+
+/* ----------------------------------------- */
+
+/* Coint Page */
+
+.image{
+    width: 45px;
+    height: 45px;
+}
+.coin{
+    color: white;
+    background-color: #222222;
+}
+
+/* ----------------------------------------- */
+
+@media only screen and (max-width: 600px) {
+    .image{
+        width: 25px;
+        height: 25px;
+    }
+    input{
+        height: 30px;
+        width: 150px;
+        color: black;
+    }
+}
